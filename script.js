@@ -1,5 +1,5 @@
 const memos=[
-  '“Kisses are not reimbursable. They remain payable directly.”',
+  '“Kisses are not reimbursable. They remain payable directly to the kisser.”',
   '“ ... .”',
   '“Coffee expenditure classified as critical cultural infrastructure.”',
   '“The private AI system will not be made open source at this time.”',
