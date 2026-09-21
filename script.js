@@ -100,3 +100,4 @@ document.querySelectorAll('.kiss-button').forEach(button => {
     }, 6500);
   };
 });
+});
