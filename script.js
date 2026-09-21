@@ -14,7 +14,7 @@ const memos=[
   '“Requests for conventional entertainment (cinema and salty popcorn) will be reviewed on a case-by-case basis.”',
   '“Coffee reserves have fallen below strategic levels. Finance has been authorised without further consultation.”',
   '“Sashimi expenditure has been classified as relationship infrastructure.”',
-  '“The Danish Direct Debit Department denies allegations that its approval process consists entirely of Jake pressing Send in Revolut.”',
+  '“The Danish Direct Debit Department denies allegations that its approval process is Jake pressing Send in Revolut.”',
   '“All transfers marked ‘culturally important human’ are exempt from ordinary budget controls.”',
   '“The Care Team reminds personnel that tired human agents may require food/wine before meaningful conversation can resume.”',
   '“A temporary reduction in social battery is not a system outage. We love to charge.”',
