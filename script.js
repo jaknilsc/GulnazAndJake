@@ -6,7 +6,7 @@ const memos=[
   '“Human Intelligence must be maintained during exposure to AI generated art.”',
   '“Current kisses missing: +7,844,888,544. Audit please.”',
   '“Management knows that Copenhagen and Berlin remain located in different countries. The King of Denmark have been informed.”',
-  '“External requests to the system have again been declined. The training data is proprietary and includes an unreasonable number of inside jokes and kisses.”',
+  '“External requests to the system have again been declined. The training data is private and includes an unreasonable number of inside jokes and kisses.”',
   '“Coffee expenditure has been reviewed. Kolo Coffee reviews checked. Funding remains approved.”',
   '“Management has reviewed the available data and concluded that existing together is better.”',
   '“No action is required at this time, except possibly ordering food and staying on the couch.”',
