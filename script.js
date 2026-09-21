@@ -13,7 +13,7 @@ const memos=[
   '“The Cultural Programme confirms that pretentious theatre remains eligible for funding.”',
   '“Requests for conventional entertainment (cinema and salty popcorn) will be reviewed on a case-by-case basis.”',
   '“Coffee reserves have fallen below strategic levels. Finance has been authorised without further consultation.”',
-  '“Sashimi expenditure has been classified as relationship infrastructure.”',
+  '“Sashimi spending (Sticks & Sushi) has been classified as relationship infrastructure.”',
   '“The Danish Direct Debit Department denies allegations that its approval process is Jake pressing Send in Revolut.”',
   '“All transfers marked ‘culturally important human’ are excluded from ordinary budget controls.”',
   '“The Care Team reminds personnel that tired human agents may require food/wine before meaningful conversation can resume.”',
@@ -44,7 +44,7 @@ const memos=[
   '“Management discourages unnecessary suppression of emotions.”',
   '“Response latency should not be confused with reduced affection. These are separate metrics.”',
   '“Maintenance includes staring at a wall.”',
-  '“No meeting is required to discuss this memo. THIS COULD HAVE BEEN AN EMAIL”',
+  '“No meeting is required to discuss this memo. THIS COULD HAVE BEEN AN EMAIL.”',
   '“This memo has been generated to justify the existence of memos. Next memo please!”',
   '“No optimisation is required. Some things are just too good.”'
 ];
