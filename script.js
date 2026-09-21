@@ -20,7 +20,7 @@ const memos=[
   '“The Care Team reminds personnel that tired human agents may require food/wine before meaningful conversation can resume.”',
   '“A temporary reduction in social battery does not constitute a system outage. We love to charge.”',
   '“Rest has been approved by management. No productivity is required.”',
-  '“Hydration remains mandatory. Compliance may be met through unreasonable quantities of high-quality water.”',
+  '“Hydration remains mandatory. Compliance may be met through unreasonable quantities of high-quality water. (Send Jake to Edeka)”',
   '“The system has detected one culturally important human operating below recommended coffee levels.”',
   '“Flight delays do not reduce the cuddle balance.”',
   '“Diamond status does not exempt Jake from the laws of aviation. Management considers this a design flaw.”',
