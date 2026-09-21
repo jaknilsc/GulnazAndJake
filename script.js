@@ -46,7 +46,7 @@ const memos=[
   '“Response latency should not be confused with reduced affection. These are separate metrics.”',
   '“Maintenance windows may include staring at a wall.”',
   '“No meeting is required to discuss this memo. THIS COULD HAVE BEEN AN EMAIL”',
-  '“This memo has been generated solely to justify the existence of memos.”',
+  '“This memo has been generated to justify the existence of memos. Next memo please!”',
   '“No optimisation is required. Some things are permitted to simply be good.”'
 ];
 
