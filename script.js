@@ -59,36 +59,44 @@ document.querySelector('#newMemo').onclick=()=>{
   document.querySelector('#quote').textContent=memos[i];
 };
 
-document.querySelector('#kiss').onclick = async () => {
-  const e = document.querySelector('#delivery');
+document.querySelectorAll('.kiss-button').forEach(button => {
+  button.onclick = async () => {
+    const e = document.querySelector('#delivery');
+    const recipient = button.dataset.recipient;
+    const name = recipient === 'gulnaz' ? 'GULNAZ' : 'JAKE';
 
-  e.textContent =
-    'TRANSMITTING VIRTUAL KISS...';
+    e.textContent = `TRANSMITTING VIRTUAL KISS TO ${name}...`;
 
-  try {
-    const response = await fetch(
-      'https://gj-kiss.jaknils.workers.dev/',
-      {
-        method: 'POST'
+    try {
+      const response = await fetch(
+        'https://gj-kiss.jaknils.workers.dev/',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            recipient: recipient
+          })
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('Delivery failed');
       }
-    );
 
-    if (!response.ok) {
-      throw new Error('Delivery failed');
+      e.textContent =
+        `VIRTUAL KISS DELIVERED TO ${name}. PHYSICAL REDEMPTION REMAINS OUTSTANDING.`;
+
+    } catch (error) {
+      e.textContent =
+        'KISS DELIVERY FAILED. CARE TEAM INVESTIGATION OPENED.';
+
+      console.error(error);
     }
 
-    e.textContent =
-      'PUSH NOTIFICATION: A VIRTUAL KISS HAS BEEN DELIVERED. UNSUBSCRIBE: IMPOSSIBLE.';
-
-  } catch (error) {
-
-    e.textContent =
-      'KISS DELIVERY FAILED. CARE TEAM HAS BEEN NOTIFIED.';
-
-    console.error(error);
-  }
-
-  setTimeout(() => {
-    e.textContent = '';
-  }, 6500);
-};
+    setTimeout(() => {
+      e.textContent = '';
+    }, 6500);
+  };
+});
