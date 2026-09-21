@@ -1,6 +1,6 @@
 const memos=[
   '“Kisses are not reimbursable. They remain payable directly to the kisser.”',
-  '“The Kingdom of Denmark knows that Albina needs Liquorice.”',
+  '“The Kingdom of Denmark knows that Albina needs liquorice.”',
   '“Coffee expenditure classified as critical cultural infrastructure.”',
   '“The private AI system will not be made open source at this time.”',
   '“Human Intelligence must be maintained during exposure to AI generated art.”',
