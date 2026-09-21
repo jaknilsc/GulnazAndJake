@@ -10,7 +10,6 @@ document.querySelector('#accessKey').addEventListener('keydown',e=>{if(e.key==='
 const privateMemos=[
 '“Physical closeness remains the preferred implementation.”',
 '“The Care Team has approved an unscheduled increase in hands-on support.”',
-'“Doorway kissing continues to cause departure delays.”',
 '“Remote affection remains operational. On-site service is strongly recommended.”',
 '“Thermal testing confirms that one bed and two agents (one with a cold ass) is the more efficient configuration.”',
 '“Management has identified several buttons that should not be pressed in public.”',
