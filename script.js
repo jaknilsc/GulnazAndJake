@@ -43,7 +43,7 @@ const memos=[
   '“The Department of Noise has detected an increased level of walking from the upstairs neighbor.”',
   '“Management discourages unnecessary suppression of emotions.”',
   '“Response latency should not be confused with reduced affection. These are separate metrics.”',
-  '“Maintenance windows may include staring at a wall.”',
+  '“Maintenance includes staring at a wall.”',
   '“No meeting is required to discuss this memo. THIS COULD HAVE BEEN AN EMAIL”',
   '“This memo has been generated to justify the existence of memos. Next memo please!”',
   '“No optimisation is required. Some things are just too good.”'
