@@ -26,7 +26,7 @@ const memos=[
   '“Diamond status does not exempt Jake from the laws of aviation. Management considers this a design flaw.”',
   '“The Travel Department continues to investigate why teleportation has not reached production.”',
   '“Late night pizza may cause abdominal pain or discomfort.”',
-  '“The joint curatorial board has rejected low-effort AI art. Irony noted.”',
+  '“The curator has rejected low-effort AI art. Irony noted.”',
   '“Exposure to culturally significant material may result in prolonged discussion.”',
   '“Museum fatigue may be treated with coffee, wine or strategic sitting.”',
   '“The Cultural Programme accepts no responsibility for exhibitions that accidentally become three-hour conversations.”',
