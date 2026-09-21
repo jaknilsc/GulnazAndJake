@@ -1,6 +1,6 @@
 const memos = [
-  '“Kisses are not reimbursable. They remain payable directly.”',
-  '“Macro decisions by Jake. Micro decisions together.”',
+  '“Kisses are not reimbursable. They remain payable directly to Jake.”',
+  '“Macro decisions by Gulnaz. Micro decisions together.”',
   '“Coffee expenditure classified as critical cultural infrastructure.”',
   '“The private AI system will not be made open source at this time.”',
   '“Human intelligence must be maintained during prolonged exposure to artificial intelligence generated art.”',
