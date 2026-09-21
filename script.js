@@ -8,7 +8,7 @@ const memos=[
   '“Management knows that Copenhagen and Berlin remain located in different countries. The King of Denmark have been informed.”',
   '“External requests to the system have again been declined. The training data is proprietary and includes an unreasonable number of inside jokes and kisses.”',
   '“Coffee expenditure has been reviewed. Kolo Coffee reviews checked. Funding remains approved.”',
-  '“Management has reviewed the available data and concluded that existing together continues to outperform all known alternatives.”',
+  '“Management has reviewed the available data and concluded that existing together is better.”',
   '“Virtual kisses do not satisfy minimum physical-delivery requirements. Outstanding balances must be settled in person.”',
   '“No action is required at this time, except possibly ordering food and staying on the couch.”',
   '“The Cultural Programme confirms that pretentious theatre remains eligible for funding.”',
