@@ -39,7 +39,7 @@ const memos=[
   '“Attempts to unsubscribe from push notifications remain unsupported.”',
   '“A virtual kiss has no expiration date and may be redeemed for a physical.”',
   '“The system recognises no upper limit on kisses at this time.”',
-  '“Complaints regarding excessive cuddling should be submitted directly to the person doing the cuddling. (Don't involve HR)”',
+  '“Complaints regarding excessive cuddling should be submitted directly to the person doing the cuddling. (Don't involve HR).”',
   '“HR has reviewed the phrase ‘min skat’ and found no compliance concerns.”',
   '“The Department of Noise has detected an increased level of walking from the upstairs neighbor.”',
   '“Management discourages unnecessary suppression of emotions.”',
