@@ -16,7 +16,7 @@ const memos=[
   '“Sashimi spending (Sticks & Sushi) has been classified as relationship infrastructure.”',
   '“The Danish Direct Debit Department denies allegations that its approval process is Jake pressing Send in Revolut.”',
   '“All transfers marked ‘culturally important human’ are excluded from ordinary budget controls.”',
-  '“The Care Team reminds personnel that tired human agents may require food/wine before meaningful conversation can resume.”',
+  '“The Care Team reminds you that tired human agents may require food/wine before meaningful conversation can resume.”',
   '“A temporary reduction in social battery is not a system outage. We love to charge.”',
   '“Rest has been approved by management. No productivity is required.”',
   '“Hydration is mandatory. Compliance may be met through unreasonable quantities of high-quality water. (Send Jake to Edeka).”',
