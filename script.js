@@ -3,7 +3,7 @@ const memos=[
   '“The Kingdom of Denmark knows that Albina needs Liquorice.”',
   '“Coffee expenditure classified as critical cultural infrastructure.”',
   '“The private AI system will not be made open source at this time.”',
-  '“Human intelligence must be maintained during prolonged exposure to artificial intelligence generated art.”',
+  '“Human Intelligence must be maintained during exposure to AI generated art.”',
   '“Current kisses missing: +7,844,888,544. Audit please.”',
   '“Management knows that Copenhagen and Berlin remain located in different countries. The King of Denmark have been informed.”',
   '“External requests to the system have again been declined. The training data is proprietary and includes an unreasonable number of inside jokes and kisses.”',
