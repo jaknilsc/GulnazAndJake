@@ -59,8 +59,36 @@ document.querySelector('#newMemo').onclick=()=>{
   document.querySelector('#quote').textContent=memos[i];
 };
 
-document.querySelector('#kiss').onclick=()=>{
-  const e=document.querySelector('#delivery');
-  e.textContent='PUSH NOTIFICATION: A VIRTUAL KISS HAS BEEN DELIVERED. UNSUBSCRIBE: IMPOSSIBLE.';
-  setTimeout(()=>e.textContent='',6500);
+document.querySelector('#kiss').onclick = async () => {
+  const e = document.querySelector('#delivery');
+
+  e.textContent =
+    'TRANSMITTING VIRTUAL KISS...';
+
+  try {
+    const response = await fetch(
+      'https://gj-kiss.jaknils.workers.dev/',
+      {
+        method: 'POST'
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error('Delivery failed');
+    }
+
+    e.textContent =
+      'PUSH NOTIFICATION: A VIRTUAL KISS HAS BEEN DELIVERED. UNSUBSCRIBE: IMPOSSIBLE.';
+
+  } catch (error) {
+
+    e.textContent =
+      'KISS DELIVERY FAILED. CARE TEAM HAS BEEN NOTIFIED.';
+
+    console.error(error);
+  }
+
+  setTimeout(() => {
+    e.textContent = '';
+  }, 6500);
 };
