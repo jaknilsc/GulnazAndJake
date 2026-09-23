@@ -48,11 +48,14 @@ test('each feedback type goes only to Jake as plain text, without returning secr
   };
   try {
     for (const type of ['Suggestion', 'Bug', 'Complaint']) {
-      const result = await worker.fetch(request({ ...valid, type, message: ' <b>coffee</b> ☕ ' }), env);
+      const input = request({ ...valid, type, message: ' <b>coffee</b> ☕ ' });
+      if (type === 'Suggestion') input.cf = { city: 'Copenhagen', country: 'DK' };
+      const result = await worker.fetch(input, env);
       assert.equal(result.status, 200);
       assert.deepEqual(await result.json(), { ok: true });
       assert.equal(sent.at(-1).chat_id, 'jake-test');
       assert.equal(sent.at(-1).parse_mode, undefined);
+      assert.ok(sent.at(-1).text.includes(type === 'Suggestion' ? 'Origin: Copenhagen, DK' : 'Origin: Unknown, Unknown'));
       assert.match(sent.at(-1).text, /<b>coffee<\/b> ☕$/);
     }
   } finally { globalThis.fetch = original; }

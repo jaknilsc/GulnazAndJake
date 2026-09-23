@@ -26,6 +26,10 @@ unauthenticated endpoint. The Cloudflare limiter allows five valid attempts
 per IP per minute, approximately and per Cloudflare location. Shared IPs share
 the limit. There is no persistent feedback storage, email, or message logging.
 
+Feedback Telegram messages include `Origin: city, country` from Cloudflare's
+request location metadata, matching kiss messages, with `Unknown` fallbacks.
+This is approximate IP-based location, not browser GPS.
+
 Responses: 200 `{ "ok": true }` only after Telegram confirms success; 400 for
 invalid input/honeypot, 403 for disallowed origin, 405 for unsupported method,
 413 for oversized body, 415 for non-JSON, 429 with Retry-After: 60 for rate limit,

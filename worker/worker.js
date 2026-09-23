@@ -178,7 +178,7 @@ async function handleFeedback(request, env) {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         chat_id: env.TELEGRAM_CHAT_ID,
-        text: ['G&J FEEDBACK · MANAGEMENT DESK', '', `Type: ${data.type}`, '', data.message.trim()].join('\n'),
+        text: ['G&J FEEDBACK · MANAGEMENT DESK', '', `Type: ${data.type}`, `Origin: ${request.cf?.city || 'Unknown'}, ${request.cf?.country || 'Unknown'}`, '', data.message.trim()].join('\n'),
         link_preview_options: { is_disabled: true }
       }),
       signal: AbortSignal.timeout(10000)
