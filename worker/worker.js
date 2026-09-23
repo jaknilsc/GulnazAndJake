@@ -165,7 +165,7 @@ async function handleFeedback(request, env) {
   }
   if (!data || typeof data !== 'object' || Array.isArray(data)) return reply(400, { error: 'Invalid request.' });
   if (data.website !== undefined && data.website !== '') return reply(400, { error: 'Invalid request.' });
-  const types = ['Suggestion', 'Bug', 'Complaint', 'Excellent decision'];
+  const types = ['Suggestion', 'Bug', 'Complaint'];
   if (!types.includes(data.type) || typeof data.message !== 'string' || !data.message.trim() || data.message.length > 3000) {
     return reply(400, { error: 'Choose a feedback type and enter 1–3,000 characters.' });
   }

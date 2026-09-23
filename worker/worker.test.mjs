@@ -47,7 +47,7 @@ test('each feedback type goes only to Jake as plain text, without returning secr
     return Response.json({ ok: true, result: { message_id: 1, chat: { id: 'jake-test' } } });
   };
   try {
-    for (const type of ['Suggestion', 'Bug', 'Complaint', 'Excellent decision']) {
+    for (const type of ['Suggestion', 'Bug', 'Complaint']) {
       const result = await worker.fetch(request({ ...valid, type, message: ' <b>coffee</b> ☕ ' }), env);
       assert.equal(result.status, 200);
       assert.deepEqual(await result.json(), { ok: true });

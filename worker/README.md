@@ -16,7 +16,7 @@ Cloudflare's multipart API, inherit the three existing bindings and add
 `POST https://gj-kiss.jaknils.workers.dev/feedback`
 
 JSON: `{ "type": "Suggestion", "message": "Your feedback", "website": "" }`.
-Allowed types: Suggestion, Bug, Complaint, Excellent decision. The message is
+Allowed types: Suggestion, Bug, Complaint. The message is
 required and limited to 3,000 UTF-16 code units; request bodies are capped at
 16 KiB. The optional website field is a honeypot and must be empty.
 
