@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f1ea">
+  <title>Feedback · Gulnaz & Jake</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+  <header class="top"><a class="brand" href="index.html">GULNAZ <span>&</span> JAKE</a><nav aria-label="Main navigation"><a href="index.html#status">Status</a><a href="index.html#departments">Departments</a><a href="index.html#memo">Memo</a><a class="feedback-nav" href="feedback.html" aria-current="page">Feedback</a><a href="private.html">PRIVATE</a></nav></header>
+  <main class="feedback-wrap">
+    <p class="eyebrow">INTERNAL COMMUNICATION · MANAGEMENT DESK</p>
+    <h1>Feedback</h1>
+    <p class="lede">Tell Jake what needs fixing.</p>
+    <form id="feedbackForm">
+      <label for="feedbackType">Type</label>
+      <select id="feedbackType" name="type" required>
+        <option>Suggestion</option>
+        <option>Bug</option>
+        <option>Complaint</option>
+        <option>Excellent decision</option>
+      </select>
+      <label for="feedbackMessage">Message</label>
+      <textarea id="feedbackMessage" name="message" rows="6" maxlength="3000" required aria-describedby="messageHelp"></textarea>
+      <p id="messageHelp" class="feedback-help">Up to 3,000 characters. Management can handle it.</p>
+      <div class="feedback-trap" aria-hidden="true"><label for="website">Leave this empty</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
+      <button class="button" type="submit" id="sendFeedback">Send to Jake</button>
+      <p class="feedback-help">Delivered directly to Management.</p>
+      <p id="feedbackStatus" class="feedback-status" role="status" aria-live="polite"></p>
+    </form>
+    <noscript><p>Please enable JavaScript to send feedback to Jake.</p></noscript>
+  </main>
+  <footer><p>GULNAZ & JAKE · BERLIN / COPENHAGEN / INTERNATIONAL OPERATIONS</p><p>Private system · Not open source</p></footer>
+  <script src="feedback.js"></script>
+</body>
+</html>
